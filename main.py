@@ -8,8 +8,8 @@ from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
 from langchain.schema import Document
 
 # Streamlit page setup
-st.set_page_config(page_title="LangChain: Summarize Text From YT or Website", page_icon="\U0001F99C")
-st.title("\U0001F99C LangChain: Summarize Text From YT or Website")
+st.set_page_config(page_title="Summarize Text From YT or Website", page_icon="")
+st.title("LangChain: Summarize Text From YT or Website")
 st.subheader('Summarize URL')
 
 with st.sidebar:
