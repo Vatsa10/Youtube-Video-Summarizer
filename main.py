@@ -8,8 +8,8 @@ from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
 from langchain.schema import Document
 
 # Streamlit page setup
-st.set_page_config(page_title="Summarize Text From YT or Website", page_icon="")
-st.title("Summarize Text From YT or Website")
+st.set_page_config(page_title="Summarize Text From YT Video", page_icon="")
+st.title("Summarize Text From YT Video Easily With This App")
 st.subheader('Summarize URL')
 
 with st.sidebar:
@@ -41,7 +41,7 @@ def fetch_youtube_transcript(video_url):
 
 generic_url = st.text_input("Enter a YouTube or Website URL", label_visibility="collapsed")
 
-if st.button("Summarize the Content from YT or Website"):
+if st.button("Summarize the Content from YT"):
     if not generic_url.strip():
         st.error("Please provide a URL to get started.")
     else:
