@@ -1,5 +1,4 @@
 import os
-import validator # type: ignore
 import streamlit as st  # type: ignore
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
