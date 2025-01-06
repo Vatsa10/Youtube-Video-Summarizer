@@ -9,7 +9,7 @@ from langchain.schema import Document
 
 # Streamlit page setup
 st.set_page_config(page_title="Summarize Text From YT or Website", page_icon="")
-st.title("LangChain: Summarize Text From YT or Website")
+st.title("Summarize Text From YT or Website")
 st.subheader('Summarize URL')
 
 with st.sidebar:
